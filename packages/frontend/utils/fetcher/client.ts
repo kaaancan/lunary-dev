@@ -2,7 +2,7 @@ import Router from "next/router"
 import { signOut } from "../auth"
 import { showErrorNotification } from "../errors"
 
-const BASE_URL = 'http://monorail.proxy.rlwy.net:39383'
+const BASE_URL = 'http://viaduct.proxy.rlwy.net:15407'
 
 export function buildUrl(path: string) {
   if (path.includes("/auth")) {
