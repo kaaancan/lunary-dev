@@ -43,7 +43,7 @@ app.use(v1.routes())
 app.use(auth.routes())
 app.use(webhooks.routes())
 
-const PORT = Number(process.env.PORT || 3333)
+const PORT = Number(process.env.PORT || 80)
 const server = app.listen(PORT, () =>
   console.log(`✅ Lunary API server listening on port ${PORT}`),
 )
