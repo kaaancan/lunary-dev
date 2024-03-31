@@ -2,7 +2,7 @@
   "name": "@lunary/frontend",
   "main": "pages/index.ts",
   "scripts": {
-    "start": "npm run load-env && next start -p 80",
+    "start": "npm run load-env && next start -p 80 -H  0.0.0.0",
     "dev": "next dev -p 80",
     "build": "next build",
     "load-env": "bash ./load-env.sh"
