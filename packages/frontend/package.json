@@ -3,7 +3,7 @@
   "main": "pages/index.ts",
   "scripts": {
     "start": "npm run load-env && next start -p 80",
-    "dev": "next dev -p 8080",
+    "dev": "next dev -p 80",
     "build": "next build",
     "load-env": "bash ./load-env.sh"
   },
