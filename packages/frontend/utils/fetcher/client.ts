@@ -2,7 +2,7 @@ import Router from "next/router"
 import { signOut } from "../auth"
 import { showErrorNotification } from "../errors"
 
-const BASE_URL = 'http://viaduct.proxy.rlwy.net:15407'
+const BASE_URL = 'https://backend-production-2387.up.railway.app'
 
 export function buildUrl(path: string) {
   if (path.includes("/auth")) {
